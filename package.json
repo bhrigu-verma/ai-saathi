@@ -1,0 +1,33 @@
+{
+  "name": "saathi-backend",
+  "version": "1.0.0",
+  "description": "AI Co-pilot for India's Gig Workers - Backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["ai", "whatsapp", "gig-workers", "india"],
+  "author": "Saathi Team",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.0.0",
+    "@supabase/supabase-js": "^2.44.4",
+    "@upstash/redis": "^1.31.0",
+    "groq": "^3.29.0",
+    "edge-tts": "^1.0.1",
+    "tesseract.js": "^5.1.0",
+    "fastify": "^4.28.1",
+    "bullmq": "^5.12.9",
+    "pino": "^9.2.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.5.4",
+    "tsx": "^4.16.2",
+    "sharp": "^0.33.4",
+    "pdf-lib": "^1.17.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.12"
+  }
+}
